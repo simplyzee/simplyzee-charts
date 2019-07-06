@@ -1,0 +1,3 @@
+[submodule "kube-rclone"]
+	path = kube-rclone
+	url = git@github.com:zee-ahmed/kube-rclone.git
