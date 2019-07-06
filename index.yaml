@@ -1,3 +1,22 @@
 apiVersion: v1
-entries: {}
-generated: "2019-07-06T18:00:07.452530428+01:00"
+entries:
+  kube-rclone:
+  - apiVersion: v1
+    appVersion: v1.47.0
+    created: "2019-07-06T18:08:50.235195853+01:00"
+    description: A Helm chart for rclone
+    digest: cf34f4795d3bd7634d987474241312270037bdb6c252dd6d850b5cffe19a31d8
+    home: https://rclone.org/
+    icon: https://rclone.org/img/rclone-16x16.png
+    keywords:
+    - rclone
+    maintainers:
+    - name: zee-ahmed
+    name: kube-rclone
+    sources:
+    - https://github.com/zee-ahmed/kube-rclone
+    - https://quay.io/repository/chaosaffe/rclone
+    urls:
+    - https://charts.simplyzee.dev/kube-rclone-0.1.0.tgz
+    version: 0.1.0
+generated: "2019-07-06T18:08:50.234164153+01:00"
