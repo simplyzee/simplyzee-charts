@@ -7,6 +7,6 @@ Collection of my helm charts
 To add the helm repository
 
 ```bash
-helm repo add simplyzee-charts https://charts.simplyzee.dev
+helm repo add simplyzee https://charts.simplyzee.dev
 helm search simplyzee
 ```
