@@ -1,9 +1,28 @@
 apiVersion: v1
 entries:
+  kube-owasp-zap:
+  - apiVersion: v1
+    appVersion: 2.8.0
+    created: "2019-07-15T20:14:31.632877743+01:00"
+    description: A Helm chart for owasp-zap
+    digest: 48cd7a7e54871db7cbcf6d810413ca85d4e5b9e72fcecfc90426280aa10103f5
+    home: https://github.com/zaproxy/zaproxy
+    icon: https://banner2.kisspng.com/20180502/ozq/kisspng-owasp-zap-vulnerability-penetration-test-proxy-ser-web-application-5aea65947a30d0.0276627015253108685005.jpg
+    keywords:
+    - rclone
+    maintainers:
+    - name: zee-ahmed
+    name: kube-owasp-zap
+    sources:
+    - https://github.com/zee-ahmed/kube-owasp-zap
+    - https://hub.docker.com/r/owasp/zap2docker-stable/
+    urls:
+    - https://charts.simplyzee.dev/kube-owasp-zap-0.1.0.tgz
+    version: 0.1.0
   kube-rclone:
   - apiVersion: v1
     appVersion: v1.47.0
-    created: "2019-07-06T18:08:50.235195853+01:00"
+    created: "2019-07-15T20:14:31.633984007+01:00"
     description: A Helm chart for rclone
     digest: cf34f4795d3bd7634d987474241312270037bdb6c252dd6d850b5cffe19a31d8
     home: https://rclone.org/
@@ -19,4 +38,4 @@ entries:
     urls:
     - https://charts.simplyzee.dev/kube-rclone-0.1.0.tgz
     version: 0.1.0
-generated: "2019-07-06T18:08:50.234164153+01:00"
+generated: "2019-07-15T20:14:31.631442362+01:00"
