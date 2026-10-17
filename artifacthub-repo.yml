@@ -1,5 +1,6 @@
 # Artifact Hub repository metadata
-# https://artifacthub.io/docs/topics/repositories/#ownership-claim
+# https://artifacthub.io/docs/topics/repositories/
+repositoryID: 452b04d1-7c80-4d06-9ff5-2c441df030cc
 owners:
   - name: Zee McSparron
     email: zee@simplyzee.dev
