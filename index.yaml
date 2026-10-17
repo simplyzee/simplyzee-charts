@@ -1,5 +1,40 @@
 apiVersion: v1
 entries:
+  kube-arr:
+  - apiVersion: v2
+    appVersion: '2026.10'
+    created: '2026-10-17T12:49:05.050273+01:00'
+    description: Your *arr media stack on Kubernetes. Sonarr, Radarr, Prowlarr, Bazarr,
+      Jackett, Lidarr and Plex, Jellyfin or Emby, each optional, sharing one media
+      volume
+    digest: f0a8dd17ed268e4674fd9a7133a61ca26917f03eca6455757bb3fff9131e9270
+    home: https://github.com/simplyzee/kube-arr
+    keywords:
+    - sonarr
+    - radarr
+    - prowlarr
+    - bazarr
+    - jackett
+    - lidarr
+    - plex
+    - jellyfin
+    - emby
+    - media
+    - homelab
+    - arr
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: simplyzee
+      email: zee@simplyzee.dev
+      url: https://simplyzee.dev
+    name: kube-arr
+    sources:
+    - https://github.com/simplyzee/kube-arr
+    - https://github.com/linuxserver
+    type: application
+    urls:
+    - https://charts.simplyzee.dev/kube-arr-0.1.0.tgz
+    version: 0.1.0
   kube-owasp-zap:
   - apiVersion: v2
     appVersion: 2.17.0
@@ -137,4 +172,4 @@ entries:
     urls:
     - https://charts.simplyzee.dev/kube-rclone-0.1.0.tgz
     version: 0.1.0
-generated: '2026-10-17T12:20:06.440321+01:00'
+generated: '2026-10-17T12:49:05.050273+01:00'
