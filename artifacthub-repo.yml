@@ -4,3 +4,11 @@ repositoryID: 452b04d1-7c80-4d06-9ff5-2c441df030cc
 owners:
   - name: Zee McSparron
     email: zee@simplyzee.dev
+# 0.1.x of these charts reference images that no longer exist
+# (owasp/zap2docker-stable, quay.io/simplyzee/kube-rclone), so hide them
+# from Artifact Hub. They stay in index.yaml for anyone pinned to them.
+ignore:
+  - name: kube-owasp-zap
+    version: ^0\.1\.
+  - name: kube-rclone
+    version: ^0\.1\.
