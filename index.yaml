@@ -3,7 +3,29 @@ entries:
   kube-owasp-zap:
   - apiVersion: v1
     appVersion: 2.8.0
-    created: "2019-07-15T20:17:56.869542403+01:00"
+    created: '2026-10-17T11:29:05.975206+01:00'
+    description: A Helm chart for owasp-zap
+    digest: e59df22cb3a773a1e8aad272e5e6cbb40116d6b833c07e7c4998089d0baaa615
+    home: https://github.com/zaproxy/zaproxy
+    icon: https://banner2.kisspng.com/20180502/ozq/kisspng-owasp-zap-vulnerability-penetration-test-proxy-ser-web-application-5aea65947a30d0.0276627015253108685005.jpg
+    keywords:
+    - owasp
+    - zap
+    - security
+    maintainers:
+    - name: simplyzee
+      email: zee@simplyzee.dev
+      url: https://simplyzee.dev
+    name: kube-owasp-zap
+    sources:
+    - https://github.com/simplyzee/kube-owasp-zap
+    - https://hub.docker.com/r/owasp/zap2docker-stable/
+    urls:
+    - https://charts.simplyzee.dev/kube-owasp-zap-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: 2.8.0
+    created: '2019-07-15T20:17:56.869542403+01:00'
     description: A Helm chart for owasp-zap
     digest: 48cd7a7e54871db7cbcf6d810413ca85d4e5b9e72fcecfc90426280aa10103f5
     home: https://github.com/zaproxy/zaproxy
@@ -22,7 +44,27 @@ entries:
   kube-rclone:
   - apiVersion: v1
     appVersion: v1.47.0
-    created: "2019-07-15T20:17:56.870064669+01:00"
+    created: '2026-10-17T11:29:05.975206+01:00'
+    description: A Helm chart for rclone
+    digest: e9be9b40d67f9ed9d4b66d6522754d2e745ac6ab491dc2d4dc2eeea99b6bc220
+    home: https://rclone.org/
+    icon: https://rclone.org/img/rclone-16x16.png
+    keywords:
+    - rclone
+    maintainers:
+    - name: simplyzee
+      email: zee@simplyzee.dev
+      url: https://simplyzee.dev
+    name: kube-rclone
+    sources:
+    - https://github.com/simplyzee/kube-rclone
+    - https://quay.io/repository/chaosaffe/rclone
+    urls:
+    - https://charts.simplyzee.dev/kube-rclone-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: v1.47.0
+    created: '2019-07-15T20:17:56.870064669+01:00'
     description: A Helm chart for rclone
     digest: cf34f4795d3bd7634d987474241312270037bdb6c252dd6d850b5cffe19a31d8
     home: https://rclone.org/
@@ -38,4 +80,4 @@ entries:
     urls:
     - https://charts.simplyzee.dev/kube-rclone-0.1.0.tgz
     version: 0.1.0
-generated: "2019-07-15T20:17:56.868816343+01:00"
+generated: '2026-10-17T11:29:05.975206+01:00'
