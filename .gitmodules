@@ -1,6 +1,6 @@
 [submodule "kube-rclone"]
 	path = kube-rclone
-	url = git@github.com:zee-ahmed/kube-rclone.git
+	url = https://github.com/simplyzee/kube-rclone.git
 [submodule "kube-owasp-zap"]
 	path = kube-owasp-zap
-	url = git@github.com:zee-ahmed/kube-owasp-zap.git
+	url = https://github.com/simplyzee/kube-owasp-zap.git

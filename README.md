@@ -8,5 +8,6 @@ To add the helm repository
 
 ```bash
 helm repo add simplyzee https://charts.simplyzee.dev
-helm search simplyzee
+helm repo update
+helm search repo simplyzee
 ```
