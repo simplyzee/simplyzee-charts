@@ -315,6 +315,43 @@ entries:
     - https://charts.simplyzee.dev/kube-owasp-zap-0.1.0.tgz
     version: 0.1.0
   kube-rclone:
+  - apiVersion: v2
+    name: kube-rclone
+    description: Mount any rclone remote (Google Drive, S3, Dropbox and more) on every
+      Kubernetes node with a DaemonSet
+    type: application
+    version: 0.2.2
+    appVersion: 1.75.2
+    kubeVersion: '>=1.21.0-0'
+    keywords:
+    - rclone
+    - fuse
+    - mount
+    - storage
+    - daemonset
+    - google-drive
+    - s3
+    home: https://github.com/simplyzee/kube-rclone
+    icon: https://raw.githubusercontent.com/rclone/rclone/master/graphics/logo/logo_symbol/logo_symbol_color_256px.png
+    sources:
+    - https://github.com/simplyzee/kube-rclone
+    - https://github.com/rclone/rclone
+    maintainers:
+    - name: simplyzee
+      email: zee@simplyzee.dev
+      url: https://simplyzee.dev
+    annotations:
+      artifacthub.io/category: storage
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/images: "- name: rclone\n  image: rclone/rclone:1.75.2\n  platforms:\n\
+        \    - linux/amd64\n    - linux/arm64\n"
+      artifacthub.io/links: "- name: support\n  url: https://github.com/simplyzee/kube-rclone/issues\n"
+      artifacthub.io/changes: "- kind: fixed\n  description: Chart icon, which pointed\
+        \ at a logo rclone.org no longer serves\n"
+    created: '2026-10-17T14:04:21.139018+01:00'
+    digest: 2fabc2a22cac2a74ddc53d03a141703ecd6fd964590d4c36717a728468034994
+    urls:
+    - https://charts.simplyzee.dev/kube-rclone-0.2.2.tgz
   - annotations:
       artifacthub.io/category: storage
       artifacthub.io/license: Apache-2.0
@@ -419,4 +456,4 @@ entries:
     urls:
     - https://charts.simplyzee.dev/kube-rclone-0.1.0.tgz
     version: 0.1.0
-generated: '2026-10-17T13:48:44.875317+01:00'
+generated: '2026-10-17T14:04:21.139018+01:00'
