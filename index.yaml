@@ -11,6 +11,64 @@ entries:
         \ jackett\n  image: lscr.io/linuxserver/jackett:version-v0.24.2865\n- name:\
         \ plex\n  image: lscr.io/linuxserver/plex:version-1.43.4.10903-e5521bd8c\n\
         - name: jellyfin\n  image: lscr.io/linuxserver/jellyfin:version-12.2ubu2604\n\
+        - name: emby\n  image: lscr.io/linuxserver/emby:version-4.10.1.0\n- name:\
+        \ rclone\n  image: rclone/rclone:1.75.2\n"
+      artifacthub.io/links: "- name: support\n  url: https://github.com/simplyzee/kube-arr/issues\n\
+        - name: kube-rclone (mount cloud storage as the media volume)\n  url: https://github.com/simplyzee/kube-rclone\n"
+      artifacthub.io/changes: "- kind: added\n  description: Optional kube-rclone\
+        \ dependency (rclone.enabled) that mounts cloud storage on every node and\
+        \ uses it as the shared media volume\n"
+    apiVersion: v2
+    appVersion: '2026.10'
+    created: '2026-10-17T13:10:48.463447+01:00'
+    dependencies:
+    - name: kube-rclone
+      alias: rclone
+      version: ~0.2.1
+      repository: https://charts.simplyzee.dev
+      condition: rclone.enabled
+    description: Your *arr media stack on Kubernetes. Sonarr, Radarr, Prowlarr, Bazarr,
+      Jackett, Lidarr and Plex, Jellyfin or Emby, each optional, sharing one media
+      volume
+    digest: 1fddd414088eca840cd1f6558d8d30789787dbdc722f3646ccb9865de94ad474
+    home: https://github.com/simplyzee/kube-arr
+    keywords:
+    - sonarr
+    - radarr
+    - prowlarr
+    - bazarr
+    - jackett
+    - lidarr
+    - plex
+    - jellyfin
+    - emby
+    - media
+    - homelab
+    - arr
+    - rclone
+    kubeVersion: '>=1.25.0-0'
+    maintainers:
+    - name: simplyzee
+      email: zee@simplyzee.dev
+      url: https://simplyzee.dev
+    name: kube-arr
+    sources:
+    - https://github.com/simplyzee/kube-arr
+    - https://github.com/linuxserver
+    type: application
+    urls:
+    - https://charts.simplyzee.dev/kube-arr-0.2.0.tgz
+    version: 0.2.0
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/images: "- name: sonarr\n  image: lscr.io/linuxserver/sonarr:version-4.0.20.3014\n\
+        - name: radarr\n  image: lscr.io/linuxserver/radarr:version-6.4.4.10685\n\
+        - name: lidarr\n  image: lscr.io/linuxserver/lidarr:version-3.1.0.4875\n-\
+        \ name: bazarr\n  image: lscr.io/linuxserver/bazarr:version-v1.6.1\n- name:\
+        \ prowlarr\n  image: lscr.io/linuxserver/prowlarr:version-2.6.5.5623\n- name:\
+        \ jackett\n  image: lscr.io/linuxserver/jackett:version-v0.24.2865\n- name:\
+        \ plex\n  image: lscr.io/linuxserver/plex:version-1.43.4.10903-e5521bd8c\n\
+        - name: jellyfin\n  image: lscr.io/linuxserver/jellyfin:version-12.2ubu2604\n\
         - name: emby\n  image: lscr.io/linuxserver/emby:version-4.10.1.0\n"
       artifacthub.io/links: "- name: support\n  url: https://github.com/simplyzee/kube-arr/issues\n\
         - name: kube-rclone (mount cloud storage as the media volume)\n  url: https://github.com/simplyzee/kube-rclone\n"
@@ -294,4 +352,4 @@ entries:
     urls:
     - https://charts.simplyzee.dev/kube-rclone-0.1.0.tgz
     version: 0.1.0
-generated: '2026-10-17T12:57:10.178521+01:00'
+generated: '2026-10-17T13:10:48.463447+01:00'
