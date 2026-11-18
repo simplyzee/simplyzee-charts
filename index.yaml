@@ -456,4 +456,46 @@ entries:
     urls:
     - https://charts.simplyzee.dev/kube-rclone-0.1.0.tgz
     version: 0.1.0
-generated: '2026-10-17T14:04:21.139018+01:00'
+  whatchanged:
+  - apiVersion: v2
+    name: whatchanged
+    description: Answers the first question of every incident, "what changed?". Watches
+      rollouts, ConfigMaps, Helm, Argo CD, Flux, network policies and nodes, takes pushed
+      changes from CI, and ranks the likely culprits
+    type: application
+    version: 0.1.0
+    appVersion: 0.1.0
+    kubeVersion: '>=1.25.0-0'
+    keywords:
+    - sre
+    - incident
+    - change-tracking
+    - change-management
+    - kubernetes
+    - observability
+    - grafana
+    - argocd
+    - flux
+    home: https://github.com/simplyzee/whatchanged
+    icon: https://raw.githubusercontent.com/simplyzee/whatchanged/main/docs/icon.png
+    sources:
+    - https://github.com/simplyzee/whatchanged
+    maintainers:
+    - email: zee@simplyzee.dev
+      name: simplyzee
+      url: https://simplyzee.dev
+    annotations:
+      artifacthub.io/category: monitoring-logging
+      artifacthub.io/changes: "- kind: added\n  description: First release. Tracks Deployments,\
+        \ StatefulSets, DaemonSets, ConfigMaps, Helm releases, Argo CD, Flux, NetworkPolicies,\
+        \ Cilium policies, nodes and Warning events, with a push API, suspect ranking,\
+        \ Grafana annotations and a web UI\n"
+      artifacthub.io/images: "- name: whatchanged\n  image: ghcr.io/simplyzee/whatchanged:0.1.0\n\
+        \  platforms:\n    - linux/amd64\n    - linux/arm64\n"
+      artifacthub.io/license: Apache-2.0
+      artifacthub.io/links: "- name: support\n  url: https://github.com/simplyzee/whatchanged/issues\n"
+    created: '2026-11-18T00:50:12.295766+00:00'
+    digest: 45b6e6f33b86ff202dafd35a0a58615af12696c0682d21aaf3da911f0c132c8c
+    urls:
+    - https://charts.simplyzee.dev/whatchanged-0.1.0.tgz
+generated: '2026-11-18T00:50:12.295766+00:00'
