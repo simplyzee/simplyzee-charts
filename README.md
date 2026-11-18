@@ -19,5 +19,5 @@ helm search repo simplyzee
 | [kube-arr](https://github.com/simplyzee/kube-arr) | The *arr media stack: Sonarr, Radarr, Lidarr, Bazarr, Prowlarr, Jackett and Plex, Jellyfin or Emby, with optional cloud storage and transcodes as pods |
 | [kube-rclone](https://github.com/simplyzee/kube-rclone) | Mount any rclone remote on every node |
 | [kube-owasp-zap](https://github.com/simplyzee/kube-owasp-zap) | OWASP ZAP security scans as Jobs or CronJobs |
-| [whatchanged](https://github.com/simplyzee/whatchanged) | Answers "what changed?" during incidents: tracks rollouts, ConfigMaps, Helm, Argo CD, Flux and network policy changes plus pushed CI deploys, and ranks the likely culprits |
+| [whatchanged](https://github.com/simplyzee/whatchanged) | Answers "what changed?" during incidents: tracks rollouts, config, Helm, GitOps, routing, RBAC, admission, certificates and network changes plus pushed CI deploys, ranks the likely culprits, and serves it all to AI agents over MCP |
 
